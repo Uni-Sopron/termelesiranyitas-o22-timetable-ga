@@ -1,6 +1,6 @@
 # Timetable
 
-[![build](https://github.com/LoremIPsummer/timetable/actions/workflows/build.yml/badge.svg)](https://github.com/LoremIPsummer/timetable/actions/workflows/build.yml)
+[![build](https://github.com/Uni-Sopron/termelesiranyitas-o22-timetable-ga/actions/workflows/build.yml/badge.svg)](https://github.com/Uni-Sopron/termelesiranyitas-o22-timetable-ga/actions/workflows/build.yml)
 
 Timetable is a small, dependency-free CLI tool responsible for scheduling timetables using a GA (genetic algorithm) approach.
 
