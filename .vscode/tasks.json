@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "reset",
+      "command": "make clean"
+    },
+    {
+      "dependsOn": [],
+      "type": "shell",
+      "label": "Make build debug",
+      "command": "",
+      "args": ["make", "debug"],
+      "options": {},
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "dependsOn": [],
+      "type": "shell",
+      "label": "Make build release",
+      "command": "",
+      "args": ["make", "release"],
+      "options": {},
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "version": "2.0.0"
+}
